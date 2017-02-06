@@ -1,0 +1,383 @@
+/* For increasing space between the content and navbar */
+
+body { padding-top: 70px; font-family: 'Montserrat', sans-serif;}
+/*body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 981px) { body { padding-top: 60px; } } */
+
+
+/* Navbar styles */
+
+.navbar-nav > li {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: right;
+        margin-right: 50px;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+}
+
+
+/*navbar style overrides*/
+nav.navbar.navbar-default.navbar-fixed-top {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #333333;
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333333;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #333333;
+}
+
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:active {
+  color: #333333;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #333333;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:active {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: white;
+    color: #4C5364;
+}
+
+/* replaces hamburger menu */
+.menu-text-styles {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  /*.li-extra-padding {
+    padding-bottom: 45px;
+  }*/
+}
+@media screen and (min-width: 768px) {
+  .nav-mobile-hr-divider {
+    display: none;
+  }
+}
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 30px;
+}
+
+/* end navbar styles
+
+/* Ali Aijaz name styles */
+
+.main-name-container {
+  padding-top: 175px;
+  padding-bottom: 175px;
+  background-color: #4C5364;
+}
+
+h1.main-name-styles {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* End name styles */
+
+/* Begin slogan styles */
+
+p.slogan {
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* End slogan styles */
+
+/* Projects container styles */
+
+.projects-name-container {
+  padding-top: 175px;
+  padding-bottom: 175px;
+  background-color: #DDDDDD;
+}
+
+p.black-color{
+  color: black;
+}
+
+p.project-title-header {
+  color: black;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+p.project-text-descr-styles {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+}
+
+
+p.first-project-left-padding {
+  padding-left: 30px;
+}
+
+p.third-project-right-padding {
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 768px){
+  .projects-mobile-nav-hr-divider {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px){
+
+  /*.about-header-text {
+    text-decoration: underline;
+  }*/
+  .projects-title-header {
+    margin-bottom: 50px;
+  }
+
+  .individual-project-container-mobile-styles {
+    margin-bottom: 50px;
+  }
+
+  p.project-text-descr-styles {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .projects-mobile-nav-hr-divider {
+    border-top: 2px solid black;
+  }
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img.ux-logo-size {
+  height: 35px;
+  width: 35px;
+}
+
+i.fa.fa-font-size {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+/*
+.projects-container .col-md-4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.project-image-container {
+  margin-top: 20px;
+}
+.project-image-styles {
+  height: 75px;
+}
+
+@media (max-width: 767px){
+  .project-separator {
+    margin-bottom: 35px;
+  }
+}*/
+
+/* End Projects container styles */
+
+
+/* About container styles */
+
+.about-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #C26868;
+}
+
+.about-header-text {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#code {
+/*  margin-top:150px;*/
+  border-radius: 5px;
+  width:750px;
+  margin: 0 auto;
+  padding-top:15px;
+  font-size:30px;
+  background: #ccc;
+  height: 650px;
+  font-family: 'Anonymous Pro', monospace;
+  text-align: left;
+  font-size:13px;
+  color: #fafafa;
+}
+
+#console {
+  width:750px;
+  padding: 40px;
+  height: 635px;
+  margin:0 auto;
+  background: #383737;
+}
+
+span.answer {
+  color:#ccc;
+}
+
+.inner {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+#about {
+/*  background-color: #D57878;*/
+  background-color: #C26868;
+  height: 900px;
+  margin-top:-30px;
+}
+
+@media screen and (max-width:700px) {
+  #code, #console {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #code, #console {
+    height:auto;
+  }
+  #code {
+    margin-bottom: 20px;
+  }
+  #about .inner {
+   padding: 0px 10px 0px 10px;
+ }
+}
+/* Footer styles */
+
+.footer {
+  height: 100px;
+}
+
+.outer-social-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.inner-social-icons {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: 'Montserrat',"Helvetica Neue",Helvetica,sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.remove-container-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.empty-spacing {
+  padding-top: 25px;
+}
+
+.small-empty-spacing {
+  padding-top: 10px;
+}
+
+.text-muted {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat',"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.footer-styles {
+  color: black;
+  width: 500px;
+  height: 200px;
+}
+
+.footer > .remove-container-padding {
+
+}
+
+@media screen and (max-width: 768px){
+  .navbar-nav {
+    padding-bottom: 50px;
+  }
+}
+/* End footer styles */
