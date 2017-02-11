@@ -5,21 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Ali Aijaz - Developer, Designer, Marketer</title>
+    <title>Ali Aijaz - Software Engineer and Designer</title>
     <!--ICON-->
     <link rel="shortcut icon" href="img/projects/uxLogo.png">
-    <!-- Bootstrap Flatly Styles -->
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!--FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
 
-    <!--CUSTOM CSS-->
-    <link href="css/custom.css" rel="stylesheet">
-
     <!--font awesome-->
     <script src="https://use.fontawesome.com/aa03f685ae.js"></script>
+
+    <link href="css/custom2.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,156 +28,208 @@
     <![endif]-->
   </head>
   <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Ali</a>
+        </div>
+        <div id="myNavbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-  <!--BEGIN NAVBAR-->
-  <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <p class="menu-text-styles">Menu</p>
-      </button>
-      <a class="navbar-brand hide-on-mobile" href="#">Ali</a>
+    <header class="main-name-container">
+    <div class="container">
+      <div class="name-slogan-container text-center">
+        <img src="img/logos/code.png" class="img-responsive center-block header-image-size">
+        <h1 class="main-name-styles">Ali Aijaz</h1>
+        <p class="slogan">Software engineer &amp; Designer.</p>
+      </div>
     </div>
+  </header>
 
-    <div class="navbar-collapse collapse" id="myNavbar" aria-expanded="false" style="height: 1px;">
-      <ul class="nav navbar-nav">
-        <hr class="nav-mobile-hr-divider">
-        <li ><a href="#projects-reference">Projects</a></li>
-        <hr class="nav-mobile-hr-divider">
-        <li ><a href="#about-reference">About</span></a></li>
-        <hr class="nav-mobile-hr-divider">
-        <li ><a href="#skills-reference">Skills</a></li>
-        <hr class="nav-mobile-hr-divider">
+  <header class="projects-name-container" id="projects">
+    <div class="container">
+      <div class="text-center">
+        <p class="about-header-text black-color projects-title-header">Projects</p>
+        <div class="row">
 
-      </ul>
-
-    </div>
-  </div>
-</nav>
-<!--END NAVBAR-->
-
-<!--BEGIN MAIN CONTAINER-->
-
-    <!--BEGIN ABOVE THE FOLD-->
-    <div class="main-name-container text-center">
-      <h1 class="main-name-styles">Ali Aijaz</h1>
-      <p class="slogan">Software engineer &amp; Designer.</p>
-    </div>
-    <!--END ABOVE THE FOLD-->
-
-    <div id="projects-reference">
-    <div class="projects-name-container text-center">
-      <p class="about-header-text black-color projects-title-header">Projects</p>
-      <br><br>
-      <div class="row">
-
-        <div class="col-sm-4 col-md-4">
-          <div class="individual-project-container-mobile-styles">
-            <a href="https://www.rahvsid.com/" target="_blank">
-              <i class="fa fa-camera fa-font-size" aria-hidden="true"></i>
-              <p class="project-title-header">Rahvsid</p>
+          <div class="col-sm-4 col-md-4">
+            <div class="individual-project-container-mobile-styles">
+              <a href="https://www.rahvsid.com/" target="_blank">
+                <i class="fa fa-camera fa-font-size" aria-hidden="true"></i>
+                <p class="project-title-header">Rahvsid</p>
+              </a>
+              <p class="project-text-descr-styles first-project-left-padding">Photography portfolio designed and developed for visual artist, Rahim Siddiq. Consists of a minimalist, user interface design. Focused on enhancing user expreience through providing a sleek and elegant UI.</p>
+            </div>
+          </div>
+          <!-- <hr class="nav-mobile-hr-divider"> -->
+          <div class="col-sm-4 col-md-4">
+            <div class="individual-project-container-mobile-styles">
+            <a href="https://www.ridatechsolutions.com/" target="_blank">
+              <i class="fa fa-code fa-font-size" aria-hidden="true"></i>
+              <p class="project-title-header">Rida Tech Solutions</p>
             </a>
-            <p class="project-text-descr-styles first-project-left-padding">Photography portfolio designed and developed for visual artist, Rahim Siddiq. Consists of a minimalist, user interface design. Focused on enhancing user expreience through providing a sleek and elegant UI.</p>
+            <p class="project-text-descr-styles">Commissioned web design and development for Oracle development and consulting firm, RidaTech. Utilized a fixed navbar, smooth scrolling using jQuery and a flat design scheme. Responsive on all devices.</p>
+            </div>
+          </div>
+          <!-- <hr class="nav-mobile-hr-divider"> -->
+          <div class="col-sm-4 col-md-4">
+            <div class="individual-project-container-mobile-styles">
+            <a href="https://www.urbanomix.supply/" target="_blank">
+              <i class="fa fa-snowflake-o fa-font-size" aria-hidden="true"></i>
+              <p class="project-title-header">Urbanomix</p>
+            </a>
+            <p class="project-text-descr-styles third-project-right-padding">Streetwear and contemporary fashion brand represented by artists DCMBR, Swanzy, Top5 and Cameron Pasquale. Served as creative director for all photoshoots and lead designer and developer for their website.</p>
+            </div>
           </div>
         </div>
-        <!-- <hr class="nav-mobile-hr-divider"> -->
-        <div class="col-sm-4 col-md-4">
-          <div class="individual-project-container-mobile-styles">
-          <a href="https://www.ridatechsolutions.com/" target="_blank">
-            <i class="fa fa-code fa-font-size" aria-hidden="true"></i>
-            <p class="project-title-header">Rida Tech Solutions</p>
-          </a>
-          <p class="project-text-descr-styles">Commissioned web design and development for Oracle development and consulting firm, RidaTech. Utilized a fixed navbar, smooth scrolling using jQuery and a flat design scheme. Responsive on all devices.</p>
-          </div>
-        </div>
-        <!-- <hr class="nav-mobile-hr-divider"> -->
-        <div class="col-sm-4 col-md-4">
-          <div class="individual-project-container-mobile-styles">
-          <a href="https://www.urbanomix.supply/" target="_blank">
-            <i class="fa fa-snowflake-o fa-font-size" aria-hidden="true"></i>
-            <p class="project-title-header">Urbanomix</p>
-          </a>
-          <p class="project-text-descr-styles third-project-right-padding">Streetwear and contemporary fashion brand represented by artists DCMBR, Top5 and Cameron Pasquale. Served as creative director for all photoshoots and lead designer and developer for their website.</p>
+
+    </div>
+  </header>
+
+  <header class="about-container" id="about">
+  <div class="container">
+    <div class="text-center">
+      <p class="about-header-text">About</p>
+    <div id="code">
+          <div id="console">
+            <span class="entry">&gt; Ali.Location();</span><br/>
+            <span class="answer">&nbsp;&nbsp;=&gt; "Irvine, CA"<br/><br/></span>
+            <span class="entry">&gt; Ali.Education();</span><br/>
+            <span class="answer">&nbsp;&nbsp;=&gt; "University of California, Irvine"<br/><br/></span>
+            <span class="entry">&gt; Ali.Degree();<br/>
+            <span class="answer">&nbsp;&nbsp;=&gt; "Bachelors Degree in Computer Science"<br/><br/></span>
+            <span class="entry">&gt; Ali.GraduationYear();</span><br/>
+            <span class="answer">&nbsp;&nbsp;=&gt; "June 2016"<br/><br/></span>
+            <span class="entry">&gt; Ali.Education().Courses();</span><br/>
+            <span class="answer">&nbsp;&nbsp;=&gt; "Data Structures. Algorithms and Analysis. Software Design."<br/><br/></span>
+            <span class="entry">&gt; Ali.SocialMedia();</span><br/>
+            <span class="answer">&nbsp;&nbsp;=&gt; "Instagram: @aliaijaz_"<br/><br/></span>
+            <span class="entry">&gt; Ali.Education().SeniorDesign();</span><br/>
+            <span class="answer">&nbsp;&nbsp;=&gt; "Databases and Web Apps Full Stack Developer Course: built miniature Netflix app."<br/><br/></span>
+            <span class="entry">&gt; Ali.WorkExperience().Latest();</span><br/>
+            <span class="answer">&nbsp;&nbsp;=&gt;
+                       &nbsp;company: "Mc-Graw Hill Education"<br/>
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; role: "Content Programmer"<br/>
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; date: "October 2016 - present"<br/>
+            <br/></span>
+            <span class="entry">&gt; Ali.FreelanceWork().Latest();</span><br/>
+            <span class="answer">&nbsp;&nbsp;=&gt;
+                       &nbsp;project: "TutorNerd"<br/>
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; role: "Full Stack Developer"<br/>
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; date: "June 2016 - present"<br/>
+            <br/></span>
+
+            <span class="entry">&gt; Ali.Email();</span><br/>
+            <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="mailto:maliaijazuhs12@gmail.com">maliaijazuhs12@gmail.com</a>"<br/><br/></span>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-
-
-    <div id="about">
-      <div class="inner" id="about-reference">
-      <br><br><br>
-      <p class="about-header-text">about me</p>
-      <br><br><br>
-      <div id="code">
-						<div id="console">
-							&gt; Ali.Location();<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "Irvine, CA"<br/><br/></span>
-							&gt; Ali.Education();<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "University of California, Irvine"<br/><br/></span>
-							&gt; Ali.Degree();<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "Computer Science"<br/><br/></span>
-							&gt; Ali.GraduationYear();<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "June 2016"<br/><br/></span>
-              &gt; Ali.SocialMedia();<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "Instagram - @aliaijaz_"<br/><br/></span>
-							&gt; Ali.WorkExperience().Latest();<br/>
-							<span class="answer">=&gt;
-                         &nbsp;&nbsp; company: "Mc-Graw Hill Education"<br/>
-												 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; role: "Content Programmer"<br/>
-												 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; date: "October 2016 - present"<br/>
-							<br/></span>
-              &gt; Ali.FreelanceWork().Latest();<br/>
-							<span class="answer">=&gt;
-                         &nbsp;&nbsp; project: "TutorNerd"<br/>
-												 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; role: "Full Stack Developer"<br/>
-												 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; date: "June 2016 - present"<br/>
-							<br/></span>
-
-							&gt; Ali.Email();<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="mailto:maliaijazuhs12@gmail.com">maliaijazuhs12@gmail.com</a>"<br/><br/></span>
-						</div>
-					</div>
-
-
-
-    </div>
-
-    <!--about-->
 
   </div>
-  <!--END MAIN CONTAINER-->
+  </header>
 
+  <header class="projects-name-container" id="skills">
+    <div class="container">
+      <div class="text-center">
+        <p class="about-header-text black-color projects-title-header">Skills</p>
+        <div class="row">
+          <div class="col-sm-4 col-md-4">
+            <div class="individual-project-container-mobile-styles">
+              <i class="fa fa-coffee fa-font-size" aria-hidden="true"></i>
+              <p class="project-title-header">Back End</p>
 
-    <!--FOOTER-->
-    <footer class="footer">
-          <div class="container remove-container-padding">
-            <p class="empty-spacing"></p>
-            <p class="text-muted"></p>
-            <div class="outer-social-container">
-              <a href="https://www.linkedin.com/in/aliaijaz/" target="_blank"><p class="inner-social-icons">LinkedIn</p></a>
-              <a href="https://github.com/maliaijaz" target="_blank"><p class="inner-social-icons">GitHub</p></a>
-              <a href="mailto:maliaijazuhs12@gmail.com" target="_blank"><p class="inner-social-icons">Email</p></a>
+            <p class="project-text-descr-styles first-project-left-padding skills-styles">Java. Python. SQL.</p>
             </div>
-            <p class="small-empty-spacing"></p>
-
-            <!-- <p class="text-muted">Design + Code by <a href="https://www.linkedin.com/in/aliaijaz/" target="_blank">Ali Aijaz</a></p> -->
-            <p class="text-muted">© 2017 Ali Aijaz - All rights reserved</p>
-            <p class="small-empty-spacing"></p>
-            <p class="small-empty-spacing"></p>
           </div>
-    </footer>
+          <!-- <hr class="nav-mobile-hr-divider"> -->
+          <div class="col-sm-4 col-md-4">
+            <div class="individual-project-container-mobile-styles">
+              <i class="fa fa-pencil-square-o fa-font-size" aria-hidden="true"></i>
+              <p class="project-title-header">Front End</p>
+            <p class="project-text-descr-styles skills-styles">HTML5. CSS3. JavaScript.</p>
+            </div>
+          </div>
+          <!-- <hr class="nav-mobile-hr-divider"> -->
+          <div class="col-sm-4 col-md-4">
+            <div class="individual-project-container-mobile-styles">
+              <i class="fa fa-cog fa-font-size" aria-hidden="true"></i>
+              <p class="project-title-header">Frameworks + Tools</p>
+            <p class="project-text-descr-styles third-project-right-padding skills-styles">Bootstrap. ReactJS. AWS. Git.</p>
+            </div>
+          </div>
+        </div>
+        <div class="four-column-separator"></div>
+        <div class="row">
+          <div class="col-sm-4 col-md-4"></div>
+          <div class="col-sm-4 col-md-4">
+            <div class="individual-project-container-mobile-styles">
+              <i class="fa fa-paint-brush fa-font-size" aria-hidden="true"></i>
+              <p class="project-title-header">Design</p>
+            <p class="project-text-descr-styles third-project-right-padding skills-styles">Responsiveness. Lightroom. Photoshop. UI/UX.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4"></div>
+        </div>
 
-    <!--END FOOTER-->
+    </div>
+  </header>
+
+  <header class="contact-me-container" id="contact">
+    <div class="container">
+      <div class="text-center">
+        <p class="about-header-text black-color">Contact</p>
+        <p class="contact-me-paragraph">
+          I am currently available for freelance work and am seeking new opportunities to grow. If you have a project that you would like to get started on, reach out to me via my LinkedIn or click on the link below to get in touch.
+        </p>
+        <a href="mailto:maijaz@uci.edu" class="btn btn-primary btn-lg message-button-styles"><i class="fa fa-envelope email-styles" aria-hidden="true"></i>Message Me</a>
+    </div>
+  </header>
+
+  <!--FOOTER-->
+  <footer class="footer">
+        <div class="container">
+          <p class="empty-spacing"></p>
+          <p class="text-muted"></p>
+          <div class="outer-social-container">
+            <a href="https://www.linkedin.com/in/aliaijaz/" target="_blank"><p class="inner-social-icons">LinkedIn</p></a>
+            <a href="https://github.com/maliaijaz" target="_blank"><p class="inner-social-icons">GitHub</p></a>
+            <a href="mailto:maliaijazuhs12@gmail.com" target="_blank"><p class="inner-social-icons">Email</p></a>
+          </div>
+          <p class="small-empty-spacing"></p>
+
+          <!-- <p class="text-muted">Design + Code by <a href="https://www.linkedin.com/in/aliaijaz/" target="_blank">Ali Aijaz</a></p> -->
+          <p class="text-muted">© 2017 Ali Aijaz - All rights reserved</p>
+          <p class="small-empty-spacing"></p>
+          <p class="small-empty-spacing"></p>
+        </div>
+  </footer>
+
+  <!--END FOOTER-->
+
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--custom JS files-->
     <script src="js/scripts.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   </body>
 </html>

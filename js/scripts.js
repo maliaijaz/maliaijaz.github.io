@@ -23,6 +23,7 @@ $(document).ready(function(){
       });
     }  // End if
   });
+
 });
 
 $(document).on('click','.navbar-collapse.in',function(e) {

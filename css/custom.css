@@ -1,6 +1,8 @@
 /* For increasing space between the content and navbar */
 
 body { padding-top: 70px; font-family: 'Montserrat', sans-serif;}
+/*body {font-family: 'Montserrat', sans-serif;}*/
+
 /*body {
   padding-top: 60px;
 }
@@ -255,8 +257,8 @@ i.fa.fa-font-size {
 /* About container styles */
 
 .about-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 175px;
+  padding-bottom: 175px;
   background-color: #C26868;
 }
 
@@ -286,7 +288,7 @@ i.fa.fa-font-size {
 #console {
   width:750px;
   padding: 40px;
-  height: 635px;
+  height: 700px;
   margin:0 auto;
   background: #383737;
 }
@@ -325,6 +327,29 @@ span.answer {
    padding: 0px 10px 0px 10px;
  }
 }
+
+
+/* Skills Styles */
+
+.skills-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #DDDDDD;
+}
+
+p.project-text-descr-styles.skills-styles {
+    text-align: center;
+}
+
+@media only screen and (max-height: 768px) {
+  .skills-separator {
+    margin-bottom: 50px;
+  }
+}
+
+
+/* End Skills Styles */
+
 /* Footer styles */
 
 .footer {
@@ -381,3 +406,10 @@ span.answer {
   }
 }
 /* End footer styles */
+
+.remove-container-padding {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
